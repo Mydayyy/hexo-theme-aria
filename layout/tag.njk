@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="{{ url_for("css/post.css") }}">
 {% endblock %}
 
-{% block title %}{{ __("tag") }}: {{ page.tag }} | {{ config.title }}{% if config.subtitle %} - {{ config.subtitle }}{% endif %}{% endblock %}
+{% block title %}{{ __("tag") }}: {{ page.tag }} | {{ config.title }}{% endblock %}
 
 {% block content %}
 <div id="tag" class="tag page">
