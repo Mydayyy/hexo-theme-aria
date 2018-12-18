@@ -22,9 +22,9 @@ reward:
   bitcoin: BitCoin
 
 postcount:
-  none: You have no post, write now!
-  one: You have %d post, keep on!
-  more: You have %d posts!
+  none: "Post count: 0"
+  one: "Post count: 1"
+  more: "Post count: %d"
 
 tagcount:
   none: You have no tag, create now！
